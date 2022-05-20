@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sofia Caraza</title>
+
+	<link rel="shortcut icon" type="imagen/x-icon" href="Imagen/LogoFinal.png">
+
+	<!--bootstrap css-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<style>
+		/*custom overrifing css; goes below the bootstrap CSS to be able to override*/
+
+		body{
+			background-color: black;
+			}
+	
+
+		.col{
+			border: 5px solid black;
+			background-color: black;
+			width: 100px;
+			height: 170px;
+			padding: 10px 0px 6px 10px;
+		}
+		.col-1{
+			border: 5px solid black;
+			border-radius: 10px;
+			background-color: #c44b94;
+			width: 550px;
+			height: 50px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 17pt;
+			font-weight: bold;
+			padding-top: 3px;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.col-2{
+			background-color: #c44b94;
+			border-radius: 10px;
+			width: 200px;
+			height: 50px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 14pt;
+			padding: 5px 0px 6px 35px;
+			border: 5px solid black;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.col-2-2{
+			background-color: #c44b94;
+			width: 200px;
+			height: 50px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 14pt;
+			padding: 5px 0px 6px 35px;
+			border: 5px solid black;
+			border-radius: 10px;
+			text-align: center;
+			margin-top: 30px;
+		}
+			.col-2-3{
+			background-color: #c44b94;
+			width: 200px;
+			height: 50px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 14pt;
+			text-align: center;
+			padding: 5px 0px 6px 35px;
+			border: 5px solid black;
+			border-radius: 10px;
+			margin-top: 30px;
+		}
+
+		a{
+			
+			text-decoration: none;
+			color: whitesmoke;
+			padding: 20px 40px 0 0;
+
+		}
+		a:hover {
+			color: black;
+			text-decoration: underline;
+		}
+
+		.col-3{
+			background-image: url(Imagen/fondo4.jpg);
+			background-repeat: no-repeat;
+			background-size: 4000px 3937px;
+			width: 260px;
+			height: 3937px;
+			border-top: 8px solid black;
+			border-right: 3px solid black;
+		}
+
+		
+		.col-4-0{
+			background-color: whitesmoke;
+			width: 795px;
+			height: 380px;
+			border right: 8px solid black;
+			border-top: 8px solid black;
+			border-left: 0px solid black;
+			color: black;
+
+			}
+		.col-4-2{
+			background-image: url(Imagen/fondo4.jpg);
+			background-repeat: no-repeat; 
+			background-size: 4000px 3937px;
+			width: 260px;
+			height: 3937px;
+			border right: 8px solid black;
+			border-top: 8px solid black;
+			border-left: 8px solid black;
+		
+		}
+		.col-5{
+			background-color: #c44b94;
+			width: 200px;
+			height: 70px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 13pt;
+			text-align: center;
+			border-top: 8px solid black;
+			padding-top: 4px;
+		}
+		.col-5-1{
+
+			background-color: #c44b94;
+			width: 200px;
+			height: 70px;
+			font-family: arial;
+			font-size: 13pt;
+			color: whitesmoke;
+			text-align: center;
+			border-top: 8px solid black;
+			padding: 3px 5px 3px 3px;
+		}
+		.col-6{
+			background-color: #c44b94;
+			width: 915px;
+			height: 70px;
+			text-align: Left;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 16pt;
+			border-top: 8px solid black;
+			padding: 15px 25px;
+
+		}
+		
+		h1{
+			text-align: left;
+			font-size: 30pt;
+			color: #c44b94;
+			padding-top: 5px;
+			font-weight: bold;
+
+
+		}
+		h2{
+			font-size: 18pt;
+			font-weight: bold;
+			text-align: center;
+			padding-top: 5px;
+		}
+		
+			a.facebook{
+			background-image: url(Imagen/facebook.ic.png);
+			background-size: 25px 25px;
+			background-repeat: no-repeat;
+			padding-top: 3px;
+			padding-left: -25px;
+		}
+a.instagram{
+			background-image: url(Imagen/instagram.ic.png);
+			background-size: 25px 25px;
+			background-repeat: no-repeat;
+			padding-top: 3px;
+			padding-left: -25px;
+}
+a.linkedin{
+			background-image: url(Imagen/linkedin.ic.png);
+			background-size: 26px 26px;
+			background-repeat: no-repeat;
+			padding-top: 3px;
+		padding-left: 0;
+			padding-right: 25px;
+}
+.titulointro{
+			text-align: center;
+		}
+.col-7{
+	width: 795px;
+	height: 510px;
+	background-color: white;
+	border-top: 8px solid black;
+	padding-top: 10px;
+}
+.col-8{
+	width: 795px;
+	height: 370px;
+	background-color: white;
+	border-top: 8px solid black;
+	padding-top: 10px;
+}
+.col-9{
+	width: 795px;
+	height: 580px;
+	background-color: white;
+	border-top: 8px solid black;
+	padding-top: 10px;
+}
+.col-10{
+	width: 795px;
+	height: 500px;
+	background-color: white;
+	border-top: 8px solid black;
+	padding-top: 10px;
+}
+.col-11{
+	width: 795px;
+	height: 500px;
+	background-color: white;
+	border-top: 8px solid black;
+	padding-top: 10px;
+}
+.col-12{
+	width: 795px;
+	height: 600px;
+	background-color: white;
+	border-top: 8px solid black;
+	padding-top: 10px;
+}
+.col-13{
+	width: 795px;
+	height: 360px;
+	background-color: white;
+	border-top: 8px solid black;
+	padding-top: 10px;
+}
+.colsec1{
+			background-color: whitesmoke;
+			width: 795px;
+			height: 920px;
+			padding-top: 5px;
+			border right: 8px solid black;
+			border-top: 8px solid black;
+			border-left: 8px solid black;
+			color: black;
+			}
+		p{
+			text-align: center;
+			font-size: 14pt;
+		}
+
+@media (max-width: 576px){
+	.col{
+			width: 80px;
+			height: 110px;
+			text-align: left;
+			padding: 0px 0px 0px 10px;
+			margin-top: 0px;
+		}
+	.logosofia{
+		width: 100px;
+		height: 100px;
+		margin-top: 10px;
+	
+	}
+		.col-1{
+			width: 310px;
+			height: 50px;
+			margin-top: 40px;
+			margin-left: 10px;
+			padding: 3px;
+			font-size: 15pt;
+			text-align: center;
+			
+		}
+		.col-2{
+			font-size: 14pt;
+			width: 200px;
+			padding: 5px 5px 5px 40px;
+			margin-top: 5px;
+			margin-left: 20px;
+			
+		}
+		.col-2-2{
+			font-size: 14pt;
+			width: 200px;
+			padding: 5px 15px 5px 45px;
+			margin-top: 5px;
+		}
+		.col-2-3{
+
+			display: none;
+		}
+		
+		.col-3{
+			display: none;
+		}
+
+		
+		.colsec1{
+			width: 100%;
+						
+		}
+
+		.col-4-0{
+			width: 100%;
+			height: 300px;
+
+		}
+		.col-7{
+			width: 100%;
+			height: 330px;
+
+		}
+		.col-8{
+			width: 100%;
+			height: 250px;
+		}
+		.col-9{
+			width: 100%;
+			height: 330px;
+		}
+		.col-10{
+			width: 100%;
+			height: 330px;
+		}
+		.col-11{
+			width: 100%;
+			height: 330px;
+		}
+		.col-12{
+			width: 100%;
+			height: 360px;
+		}
+		.col-13{
+			width: 100%;
+			height: 250px;
+		}
+		.col-6{
+			width: 270px;
+			height: 50px;
+			margin-top: 1740px;
+			padding top: 6px;
+			padding-left: 8px;
+			font-size: 13pt;
+			border:2px #c44b94;
+		}
+		.col-5{
+			width: 170px;
+			height: 50px;
+			font-size: 12pt;
+			margin-top: 1740px;
+			padding: 3px;
+			border: 2px #c44b94;
+		}
+		.col-5-1{
+			width: 100%;
+			height: 60px;
+
+			font-size: 13pt;
+			border: 2px #c44b94;
+			padding: 2px;
+		}
+		.col-4-2{
+			display: none;
+		}
+	.logoff{
+		width: 200px;
+	}
+	.stationary{
+		width: 400px;
+	}
+	.box{
+		width: 200px;
+	}
+	.van{
+		width: 200px;
+	}
+	.cap{
+		width: 400px;
+	}
+	.uniform{
+		width: 200px;
+	}
+	.card{
+		width: 400px;
+	}
+</style>
+
+</head>
+<body>
+	<div class="container">
+  <div class="row">
+   
+    <div class="col-1">Sofia Caraza | Design Student</div>
+     <div class="col">
+    	<img src="Imagen/LogoFinal.png" class="logosofia" width="150" height="150" align="center" /></div>
+
+    <div class="col-2">
+    		<a id="aboutme_top" href="HomePage.html">ABOUT ME</a>
+    </div>
+    <div class="col-2-2">
+				<a id="projects_top" href="Projects.html">PROJECT</a>
+		</div>
+		<div class="col-2-3">
+				<a id="porfolio_top" href="Portfolio.html">PORTFOLIO</a>
+	</div>
+  </div>
+
+  <div class="row" style="--bs-rows:2">
+   		<div class="col-3"></div>
+		
+		<div class="colsec1">
+	  		<h1 class="titulointro">My Portfolio</h1>
+   			<p>Welcome to my portfolio, with pleasure I invite you to see some of my designs made in my classes at Queens College.</p>
+	  	<div class="row">
+   		<div class="col-4-0"> 
+	   		<h1> Fast Fly Courier </h1> 
+	   		<h2>Logo</h2> <br>
+	   		<img src="Imagen/MailLogo.png" class="logoff" width="379px">
+	   		<img src="Imagen/MailLogo2.png" class="logoff" width="377px">
+	   		
+   		</div>
+   	</div>
+   	<div class="row">
+ 			<div class="col-7">
+		 		<h2>Mockup Stationery Set</h2>
+		 		<img src="Imagen/StationerySet.jpg" class="stationary" width="758px">
+   			</div>
+   	</div>
+   	<div class="row">
+   			<div class="col-8">
+		   		<h2>Mockup Packaging</h2>
+		 		<img src="Imagen/BoxClose.jpg" class="box" width="377px">
+		 		<img src="Imagen/BoxOpen.jpg" class="box" width="365px" >
+		   	</div>
+	</div>
+	<div class="row">
+  	<div class="col-13">
+  		<h2>Mockup Van</h2>
+  		<img src="Imagen/Van45.jpg" class="van" width="377px">
+  		<img src="Imagen/VanBack.jpg" class="van" width="377px">
+  	</div>
+  	
+  </div>
+	<div class="row">
+   			<div class="col-9">
+		   		<h2>Mockup Employee Cap</h2>
+		   		<img src="Imagen/CapMockup.jpg" class="cap" width="758px">
+		   	</div>
+  </div>
+  <div class="row">
+  	<div class="col-10">
+  		<h2>Mockup Woman's Uniform</h2>
+  		<img src="Imagen/WomanFront.jpg" class="uniform" width="377px">
+  		<img src="Imagen/WomanBack.jpg" class="uniform" width="377px">
+  	</div>
+  	
+  </div>
+  <div class="row">
+  	<div class="col-11">
+  		<h2>Mockup Men's Uniform</h2>
+  		<img src="Imagen/MenFront.jpg" class="uniform" width="377px">
+  		<img src="Imagen/MenBack.jpg" class="uniform" width="379px">
+  	</div>
+  </div>
+  <div class="row">
+  		<div class="col-12">
+  			<h2>Mockup Employee ID</h2>
+  			<img src="Imagen/IDCard.jpg" class="card" width="758px">
+  		</div>
+  </div>
+  
+
+   	</div>
+
+   	<div class="col-4-2"></div>
+ 	
+ </div>
+<footer>
+	
+
+  <div class="row">
+ 
+   	<div class="col-6">
+   		
+   	 &copy; 2022 by Sofia Caraza
+   	</div>
+   	  <div class="col-5"> Call
+   		<p>516 754-5598</p>
+   		</div>
+
+   	<div class="col-5-1"> Follow <br>
+   		<a class="facebook" href="https://www.facebook.com/scaraza12"></a> 
+   		<a class="instagram" href="https://www.instagram.com/scaraza/"></a>
+   		<a class="linkedin" href="https://www.linkedin.com/in/sofia-caraza-794580161/"> </a>
+   	</div>
+
+   	
+  </div>
+
+</footer>
+
+</div>
+	<!--bootstrap javascript-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

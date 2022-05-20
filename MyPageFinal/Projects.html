@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sofia Caraza</title>
+
+	<link rel="shortcut icon" type="imagen/x-icon" href="Imagen/LogoFinal.png">
+
+	<!--bootstrap css-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<style>
+		/*custom overrifing css; goes below the bootstrap CSS to be able to override*/
+
+		body{
+			background-color: black;
+			}
+	
+
+		.col{
+			border: 5px solid black;
+			background-color: black;
+			width: 100px;
+			height: 170px;
+			padding: 10px 0px 6px 10px;
+		}
+		.col-1{
+			border: 5px solid black;
+			border-radius: 10px;
+			background-color: #c44b94;
+			width: 550px;
+			height: 50px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 17pt;
+			font-weight: bold;
+			padding-top: 3px;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.col-2{
+			background-color: #c44b94;
+			width: 200px;
+			height: 50px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 14pt;
+			padding: 5px 0px 6px 35px;
+			border: 5px solid black;
+			border-radius: 10px;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.col-2-2{
+			background-color: #c44b94;
+			width: 200px;
+			height: 50px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 14pt;
+			padding: 5px 0px 6px 35px;
+			border: 5px solid black;
+			border-radius: 10px;
+			text-align: center;
+			margin-top: 30px;
+		}
+			.col-2-3{
+			background-color: #c44b94;
+			width: 200px;
+			height: 50px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 14pt;
+			text-align: center;
+			padding: 5px 0px 6px 35px;
+			border: 5px solid black;
+			border-radius: 10px;
+			margin-top: 30px;
+		}
+
+		a{
+			
+			text-decoration: none;
+			color: whitesmoke;
+			padding: 20px 40px 0 0;
+
+		}
+		a:hover {
+			color: black;
+			text-decoration: underline;
+		}
+
+		.col-3{
+			background-image: url(Imagen/fondo4.jpg);
+			background-repeat: no-repeat;
+			background-size: 3000px 2220px;
+			width: 260px;
+			height: 2220px;
+			border-top: 8px solid black;
+			border-right: 3px solid black;
+		}
+
+		
+		.nikelogo{
+			padding-top: 5px;
+
+		}
+		.men{
+			padding-top: 5px;
+		}
+		.woman{
+			padding-top: 2px;
+		}
+		.pumalogo{
+			padding left: 5px;
+			padding-top: 2px;
+		}
+		.rebooklogo{
+			padding-top: 2px;
+			padding-right: 10px;
+			
+		}
+
+		.col-7{
+			background-color: whitesmoke;
+			width: 795px;
+			height: 800px;
+			padding-top: 5px;
+			border right: 8px solid black;
+			border-top: 8px solid black;
+			border-left: 0px solid black;
+			color: black;
+			}
+		.col-4-0{
+			background-color: whitesmoke;
+			width: 795px;
+			height: 920px;
+			padding-top: 5px;
+			border right: 8px solid black;
+			border-top: 8px solid black;
+			border-left: 8px solid black;
+			color: black;
+			}
+		.col-4-2{
+			background-image: url(Imagen/fondo4.jpg);
+			background-repeat: no-repeat;
+			background-size: 3000px 2220px;
+			width: 260px;
+			height: 2220px;
+			border right: 8px solid black;
+			border-top: 8px solid black;
+			border-left: 8px solid black;
+		
+		}
+		.col-5{
+			background-color: #c44b94;
+			width: 200px;
+			height: 70px;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 13pt;
+			text-align: center;
+			border-top: 8px solid black;
+			padding-top: 4px;
+		}
+		.col-5-1{
+
+			background-color: #c44b94;
+			width: 200px;
+			height: 70px;
+			font-family: arial;
+			font-size: 13pt;
+			color: whitesmoke;
+			text-align: center;
+			border-top: 8px solid black;
+			padding: 3px 5px 3px 3px;
+		}
+		.col-6{
+			background-color: #c44b94;
+			width: 915px;
+			height: 70px;
+			text-align: Left;
+			color: whitesmoke;
+			font-family: arial;
+			font-size: 16pt;
+			border-top: 8px solid black;
+			padding: 15px 25px;
+
+		}
+		.titulointro{
+			text-align: center;
+		}
+		p{
+			text-align: center;
+			font-size: 14pt;
+		}
+		h1{
+			text-align: left;
+			font-size: 30pt;
+			color: #c44b94;
+			padding-top: 5px;
+			font-weight: bold;
+
+
+		}
+		h2{
+			font-size: 18pt;
+			font-weight: bold;
+		}
+		.intro{
+			text-align: justify;
+			font-size: 13pt;
+			;
+		}
+			a.facebook{
+			background-image: url(Imagen/facebook.ic.png);
+			background-size: 25px 25px;
+			background-repeat: no-repeat;
+			padding-top: 3px;
+			padding-left: -25px;
+		}
+a.instagram{
+			background-image: url(Imagen/instagram.ic.png);
+			background-size: 25px 25px;
+			background-repeat: no-repeat;
+			padding-top: 3px;
+			padding-left: -25px;
+}
+a.linkedin{
+			background-image: url(Imagen/linkedin.ic.png);
+			background-size: 26px 26px;
+			background-repeat: no-repeat;
+			padding-top: 3px;
+		padding-left: 0;
+			padding-right: 25px;
+}
+.colsec3{
+	width: 795px;
+	height: 1320px;
+	background-color: white;
+	border-top: 8px solid black;
+}
+.PHome{
+	padding-top: 20px;
+}
+.AHome{
+	padding-top: 20px;
+}
+.col-3-1{
+	width: 795px;
+	height: 80px;
+}
+.colintro{
+	width: 785px;
+	height: 60px;
+	background-color: white;
+}
+
+
+@media (max-width: 576px){
+	.col{
+			width: 80px;
+			height: 110px;
+			text-align: left;
+			padding: 0px 0px 0px 10px;
+			margin-top: 0px;
+		}
+	.logosofia{
+		width: 100px;
+		height: 100px;
+		margin-top: 10px;
+	
+	}
+		.col-1{
+			width: 310px;
+			height: 50px;
+			margin-top: 40px;
+			margin-left: 10px;
+			padding: 3px;
+			font-size: 15pt;
+			text-align: center;
+			
+		}
+		.col-2{
+			font-size: 14pt;
+			width: 200px;
+			padding: 5px 5px 5px 40px;
+			margin-top: 5px;
+			margin-left: 20px;
+			
+		}
+		.col-2-2{
+		display: none;
+		}
+		.col-2-3{
+			font-size: 14pt;
+			width: 200px;
+			padding: 5px 15px 5px 45px;
+			margin-top: 5px;
+
+		}
+		.nikelogo{
+			width: 100px;
+			height: 100px;
+
+		}
+		.men{
+			width: 100px;
+			height: 130px;
+		}
+		.woman{
+			width: 100px;
+			height: 130px;
+		}
+		.pumalogo{
+			width: 50px;
+			height: 50px;
+		}
+		.rebooklogo{
+			width: 50px;
+			height: 50px;
+			
+		}
+		.PHome{
+			width: 100%;
+		}
+		.AHome{
+			width: 100%;
+		}
+		.RHome{
+			width: 100%;
+		}
+		.col-3{
+			display: none;
+		}
+
+		
+		.col-4-0{
+			width: 100%;
+						
+		}
+
+		.col-7{
+			width: 100%;
+
+		}
+		.colsec3{
+			width: 100%;
+			height: 850px;
+		}
+		.col-6{
+			width: 270px;
+			height: 50px;
+			margin-top: 910px;
+			padding top: 6px;
+			padding-left: 8px;
+			font-size: 13pt;
+			border:2px #c44b94;
+		}
+		.col-5{
+			width: 170px;
+			height: 50px;
+			font-size: 12pt;
+			margin-top: 910px;
+			padding: 3px;
+			border: 2px #c44b94;
+		}
+		.col-5-1{
+			width: 100%;
+			height: 60px;
+
+			font-size: 13pt;
+			border: 2px #c44b94;
+			padding: 2px;
+		}
+		.col-4-2{
+			display: none;
+		}
+</style>
+
+</head>
+<body>
+	<div class="container">
+  <div class="row">
+   
+    <div class="col-1">Sofia Caraza | Design Student</div>
+     <div class="col">
+    	<img class="logosofia" src="Imagen/LogoFinal.png" width="150" height="150" align="center" /></div>
+
+    <div class="col-2">
+    		<a id="aboutme_top" href="HomePage.html">ABOUT ME</a>
+    </div>
+    <div class="col-2-2">
+				<a id="projects_top" href="Projects.html">PROJECT</a>
+		</div>
+		<div class="col-2-3">
+				<a id="porfolio_top" href="Portfolio.html">PORTFOLIO</a>
+	</div>
+  </div>
+
+  <div class="row" style="--bs-rows:2">
+   	<div class="col-3"></div>
+  
+   	<div class="col-4-0"> 
+   			<h1 class="titulointro">My Project</h1>
+   			<p>In this section you will find an example of a project developed in class for the Nike brand, analyzing the brand and its direct competitors.</p>
+   	
+   		<div class="row">
+ 	<div class="col-7">
+ 			<h1> Market Analysis </h1>
+   		<h2>Nike <img class="nikelogo" src="Imagen/nike.logo.jpg" width="205px" height="200px" align="right">
+   		</h2>
+		<ul>
+			<li>What is your market?</li>
+			<ul>
+				<li>Sportswear</li>
+				<li>Sports footwear</li>
+			</ul>
+			
+			<li>Who is your user?</li>
+			<ul>
+				<li>Athletes</li>
+				<li>Parents</li>
+				<li>People interested in dressing comfortably</li>
+			</ul>
+
+			<li>User Archetype 1</li>
+				<ul>
+					<li>Andrews Jordan <img class="men" src="Imagen/men.jpg" width="150px" height="150px" align="right"> </li>
+					<ul>
+						<li>Junior student at Queens College</li>
+						<li>Man</li>
+						<li>23 years old</li>
+						<li>Lives in New York</li>
+						<li>He is interesting in becoming a great athlete</li>
+						<li>Likes to wear comfortable clothes</li>
+					</ul>
+				</ul>
+			<li>User Archetype 2</li>
+			<ul>
+				<li>Gianella Jordan <img class="woman" src="Imagen/woman.jpg" width="130px" height="160px" align="right"> </li>
+				<ul>
+					<li>Andrews Jordans mother</li>
+					<li>Lives in New York</li>
+					<li>Woman</li>
+					<li>50 years old</li>
+					<li>Earns $70,000 a year</li>
+					<li>Financially supports her son</li>
+				</ul>
+			</ul>
+
+			<li>Who are your competitors?</li>
+				<ul>
+					<li>Adidas <img class="pumalogo" src="Imagen/puma.logo.jpg" width="100px" height="80px" align="right" > <img class="rebooklogo" src="Imagen/rebook.ic.png" width="100px" height="80px" align="right"><img class="rebooklogo" src="Imagen/adidas.ic.png" width="100px" height="80px" align="right"> </li>
+					<li>Rebook </li>
+					<li>Puma </li>
+					
+
+				</ul>
+			
+		</ul>
+		<br>
+		
+   	</div>
+  </div>
+
+   	
+<div class="row">
+	<div class="colsec3">
+		<h1> Competitive Visual Audit </h1>
+   		<h2>Nike - Competitors</h2>
+   		<img class="RHome" src="Imagen/RebookHome.png" width="755"> <br>
+   		<img class="PHome" src="Imagen/PumaHome.png" width="755"> <br>
+   		<img class="AHome" src="Imagen/AdidasHome.png" width="755"> <br>
+
+	</div>
+	
+</div>
+</div>
+   	<div class="col-4-2">
+
+   
+ 
+	</div>
+ 	
+ </div>
+<footer>
+	
+
+  <div class="row">
+ 
+   	<div class="col-6">
+   		
+   	 &copy; 2022 by Sofia Caraza
+   	</div>
+   	  <div class="col-5"> Call
+   		<p>516 754-5598</p>
+   		</div>
+
+   	<div class="col-5-1"> Follow <br>
+   		<a class="facebook" href="https://www.facebook.com/scaraza12"></a> 
+   		<a class="instagram" href="https://www.instagram.com/scaraza/"></a>
+   		<a class="linkedin" href="https://www.linkedin.com/in/sofia-caraza-794580161/"> </a>
+   	</div>
+
+   	
+  </div>
+
+</footer>
+
+</div>
+	<!--bootstrap javascript-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
+
