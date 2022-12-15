@@ -1,0 +1,219 @@
+html {
+	background: white;
+	font-size: 21px;
+}
+
+header {
+
+  padding: 15px;
+  text-align: center;
+  height: 300px;
+  background-image: url("imagenes/fondo01.png");
+  background-repeat: no-repeat;
+  background-size: 120%;
+
+}
+
+header h2{
+	font-size: 1.5em;
+	font-family: arial-black,sans-serif;
+  color: whitesmoke;
+
+}
+
+div{
+  padding-bottom: 10px;
+  padding-right: 35px;
+  font-family: arial,sans-serif;
+}
+header h1 {
+  color: whitesmoke;
+font-family: luminari;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+margin-right: 8px;
+font-size: 6rem;
+margin-top: 0.1em;
+
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@keyframes tituloprin {
+  0%{ color:whitesmoke; left: -0px; top: 0px;  }
+  100%{color: darkred; left: 100px; top:0px ; text-shadow: 0 0 8px whitesmoke;}
+}
+h1.tituloprin:hover {
+  animation-name: tituloprin;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+section h2 {
+
+font-family: mr-eaves-modern,sans-serif;
+font-weight: 400;
+font-style: bold;
+font-size: 4.4em;
+-webkit-transform: rotate(-90deg);
+margin-left: -11em;
+margin-top: -4.5em;
+
+}
+
+div a{
+  color: black;
+  text-decoration: none;
+  text-align: left ;
+}
+div span a{
+  color: goldenrod;
+  text-decoration: none;
+  text-align: center;
+}
+ul li a {
+	color: goldenrod;
+	text-decoration: none;
+  text-align: center;
+}
+
+ul a:hover{
+	color: whitesmoke;
+}
+
+ul a:active{
+	color: whitesmoke;
+}
+
+nav {
+  float: left;
+  text-align: left;
+  width: 100%;
+  height: 140px; 
+  padding-top: 15px;
+  text-align: center;
+
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+ 
+}
+
+nav li {
+  display: inline;
+  margin-right: 4em;
+}
+
+
+article b{
+	font-size: 15pt;
+
+}
+
+article p{
+	margin-left: 2em;
+	font-size: .9em;
+	margin-right: 2em;
+	line-height: 1.4em;
+
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.checkbtn{
+  font-size: 40px;
+  color: whitesmoke;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media screen and (max-width: 600px){
+
+.checkbtn{
+  display: block;
+  margin-top: -85px;
+  margin-right: 20px;
+}
+ul{
+  position: fixed;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  top: 130px;
+  left: -700px;
+  text-align: center;
+  transition: all.5s;
+}
+nav ul li{
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+}
+nav ul li a{
+  font-size: 20px;
+}
+#check:checked ~ ul{
+  left: 0;
+}
+div{
+  font-size: 20px;
+
+}
+  header{
+    font-size: 9px;
+     height: 140px; 
+  }
+  header h1{
+    font-size: 40px;
+  }
+
+  section{
+    font-size: 14.5px;
+  }
+section b{
+  font-size: 16px;
+
+}
+  section h2{
+    font-size: 40px;
+    margin-left: -12em;
+  margin-top: -3.5em;
+
+  }
+  section article{
+    height: 100%;
+    width: 75%;
+    margin-bottom: 3.5em;
+    margin-top: -4em;
+    margin-left: 5em;
+  }
+}
